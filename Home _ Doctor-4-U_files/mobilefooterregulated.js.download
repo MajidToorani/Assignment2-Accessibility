@@ -1,0 +1,33 @@
+
+define(['jquery'], function($){
+
+
+    $.widget('doctor.mobileFooterRegulated', {
+
+
+        _create: function(){
+            this.element.on('click', function(){
+                var self = $(this);
+                var links = $('#show-regulated-content');
+
+                if (self.hasClass('fa-plus'))
+                {
+                    links.show();
+                    self.removeClass('fa-plus');
+                    self.addClass('fa-minus');
+                } else
+                {
+                    links.hide();
+                    self.addClass('fa-plus');
+                    self.removeClass('fa-minus');
+                }
+
+
+            });
+        }
+    });
+
+    return $.doctor.mobileFooterRegulated;
+
+
+});

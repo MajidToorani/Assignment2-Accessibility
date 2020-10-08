@@ -1,0 +1,34 @@
+
+
+define(['jquery'], function($){
+
+
+    $.widget('doctor.mobileFooterContact', {
+
+
+        _create: function(){
+            this.element.on('click', function(){
+                var self = $(this);
+                var links = $('#show-contact-content');
+
+                if (self.hasClass('fa-plus'))
+                {
+                    links.show();
+                    self.removeClass('fa-plus');
+                    self.addClass('fa-minus');
+                } else
+                {
+                    links.hide();
+                    self.addClass('fa-plus');
+                    self.removeClass('fa-minus');
+                }
+
+
+            });
+        }
+    });
+
+    return $.doctor.mobileFooterContact;
+
+
+});
