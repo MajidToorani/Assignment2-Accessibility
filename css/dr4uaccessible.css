@@ -24,3 +24,7 @@
     background-color: #000000 !important;
 }
 
+.elementor-posts .elementor-post__excerpt p {
+    color: #000000 !important;
+}
+
