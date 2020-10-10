@@ -1,1 +1,5 @@
 /* your css here */
+
+.page-wrapper .header-wide-site-banner-wrapper a {
+    color: #000;
+}
