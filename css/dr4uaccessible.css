@@ -1,5 +1,18 @@
 /* your css here */
 
 .page-wrapper .header-wide-site-banner-wrapper a {
-    color: #000;
+    color: #000 !important;
 }
+
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+    color: #000000 !important;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-widget-text-editor {
+    color: #000000 !important;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
