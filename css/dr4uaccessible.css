@@ -1,18 +1,22 @@
 /* your css here */
 
 .page-wrapper .header-wide-site-banner-wrapper a {
-    color: #000 !important;
+    color: #000000 !important;
 }
 
 .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
     color: #000000 !important;
-    font-family: "Roboto", Sans-serif;
-    font-weight: 400;
 }
 
 .elementor-widget-text-editor {
     color: #000000 !important;
-    font-family: "Roboto", Sans-serif;
-    font-weight: 400;
+}
+
+.elementor-1750 .elementor-element.elementor-element-5b1c1cca .elementor-image-box-content .elementor-image-box-description {
+    color: #000000 !important;
+}
+
+.elementor-1750 .elementor-element.elementor-element-16720e95 .elementor-image-box-content .elementor-image-box-description {
+    color: #000000 !important;
 }
 
